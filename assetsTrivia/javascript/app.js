@@ -115,7 +115,7 @@ function finalScreen() {
     + correctTally + "</p>" + "<p>Wrong Answers: " 
     + incorrectTally + "</p>" + "<p>Unanswered: " 
     + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-primary btn-lg btn-block reset-button' href='#' role='button'>Reset The Game!</a></p>";
-
+    
     $(".mainArea").html(gameHTML);
 }
 
@@ -153,14 +153,14 @@ var answerArray =   [["1 pound of heroin", "Ferrari", "2 pizzas", "Painting"],
 var imageArray =     ["<img class='center-block img-right' width = '370' src='https://media.giphy.com/media/10kxE34bJPaUO4/giphy-downsized.gif'>",
 "<img class='center-block img-right' width = '370' src='https://media.giphy.com/media/9M4m0A3rcE58s/giphy-downsized.gif'>",
 "<img class='center-block img-right' width = '370' src='https://media.giphy.com/media/ez1LtcbtTAV6U/giphy-downsized.gif'>",
-"<img class='center-block img-right' width = '370' src='https://media.giphy.com/media/ez1LtcbtTAV6U/giphy-downsized.gif'>",
-"<img class='center-block img-right'width = '370' src='https://media.giphy.com/media/ez1LtcbtTAV6U/giphy-downsized.gif'>",
-"<img class='center-block img-right'width = '370' src='https://media.giphy.com/media/ez1LtcbtTAV6U/giphy-downsized.gif'>",
-"<img class='center-block img-right'width = '370' src='https://media.giphy.com/media/ez1LtcbtTAV6U/giphy-downsized.gif'>",
-"<img class='center-block img-right'width = '370' src='https://media.giphy.com/media/ez1LtcbtTAV6U/giphy-downsized.gif'>"];
+"<img class='center-block img-right' width = '370' src='https://media.giphy.com/media/9M4m0A3rcE58s/giphy-downsized.gif'>",
+"<img class='center-block img-right'width = '370' src='https://media.giphy.com/media/9M4m0A3rcE58s/giphy-downsized.gif'>",
+"<img class='center-block img-right'width = '370' src='https://media.giphy.com/media/9M4m0A3rcE58s/giphy-downsized.gif'>",
+"<img class='center-block img-right'width = '370' src='https://media.giphy.com/media/9M4m0A3rcE58s/giphy-downsized.gif'>",
+"<img class='center-block img-right'width = '370' src='https://media.giphy.com/media/9M4m0A3rcE58s/giphy-downsized.gif'>"];
 
 var correctAnswers = ["C. 2 pizzas", "A. 10,000", "D. Satoshi Nakamoto", "C. 21 million",
-                      "D. Overstock", "A. Around 1500", "B. No", "D. Vancouver"];
+"D. Overstock", "A. Around 1500", "B. No", "D. Vancouver"];
 var questionCounter = 0;
 var selecterAnswer;
 var theClock;
